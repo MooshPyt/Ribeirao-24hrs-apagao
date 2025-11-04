@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(248, 237, 216);
+}
+
+section{
+display: flex;
+    
+}
+
+#cu{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 15px;
+}
+
+.extra{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    margin: 10px;
+    gap: 30px;
+    
+}
+
+.n_e{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(243, 212, 154);
+    font-size: smaller;
+}
+
+#calor{
+    height: 20vh;
+}
+
+#sub{
+    display: flex;
+    gap: 5px;
+}
+
+#btn_sub{
+    all: inherit;
+    cursor: pointer;
+    background-color: rgb(250, 162, 0);
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-self: center;
+    width: 50%;
+    gap: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}

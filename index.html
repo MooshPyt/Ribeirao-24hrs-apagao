@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apagão em bairro de Ribeirão Claro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ribeirão 24h</h1>
+        <div id="sub">
+            <p id="sub_text">FIQUE LIGADO <br> NAS NOTICIAS</p>
+            <button id="btn_sub">ASSINE JÁ </button>
+        </div>
+    </header>
+    <section>
+        <div class="extra">
+            <div class="n_e">
+                <img src="calor.png" alt="" id="calor">
+                <h1>108 dias de calorão: 2023 <br>foi o 2° ano mais quente da <br>história da cidade</h1>
+            </div>
+            <div  class="n_e">
+                <img src="protese.png" alt="" id="calor">
+                <h1>Extrema evolução na tecnologia<br>de proteses promete<br>revolucionar a vida de amputados</h1>
+            </div>
+        </div>
+        <div id="cu">
+            <main>
+                <h2>Apagão deixa bairro de Ribeirão Claro no escuro por mais de 6 horas</h1>
+                <p>Ribeirão Claro, 24 de julho de 2023 — Moradores do bairro Ribeirão Claro viveram momentos de tensão na noite deste domingo (23) após um apagão que deixou a região completamente sem energia elétrica por mais de seis horas.</p>
+                <p>O blecaute começou por volta das 19h40 e afetou não apenas residências, mas também comércios e o posto de saúde local. Segundo relatos, a queda repentina de energia foi antecedida por uma sequência de fortes estalos e clarões vindos da área próxima à subestação do km 8, onde técnicos da companhia elétrica encontraram depois sinais de sobreaquecimento em um transformador principal.</p>
+                <p><q><em>Estávamos jantando quando tudo ficou escuro. Ouvimos um barulho como se algo tivesse explodido</q></em>, contou Carlos Mendes, morador da Rua das Palmeiras. <em><q>O mais estranho é que logo depois o céu ficou meio azulado, como se tivesse um brilho vindo da mata.</q></em></p>
+                <p>A Companhia de Energia Metropolitana (CEM) informou em nota que o problema teria sido causado por uma falha técnica em um disjuntor de alta tensão, mas moradores relatam ter ouvido helicópteros sobrevoando a região pouco antes do início do apagão. A empresa não confirmou essas informações.</p>
+                <p>A energia foi restabelecida gradualmente entre 1h e 2h da manhã, mas o incidente deixou várias dúvidas. A Prefeitura afirmou que pedirá um relatório oficial à companhia elétrica e que deve investigar o motivo do superaquecimento.</p>
+                <p>Enquanto isso, nas redes sociais, alguns usuários afirmam ter visto luzes estranhas na Mata do Ribeirão Claro no mesmo horário do blecaute — coincidência ou não, o local é o mesmo onde, recentemente, foram registradas denúncias de poluição e movimentações incomuns.</p>
+            </main>
+        </div>
+    </section>
+    <audio id="morse" autoplay loop>
+        <source src="morse.wav">
+    </audio>
+      <script>
+
+    const som = document.getElementById("morse");
+
+    som.volume = 0.005;
+
+    document.addEventListener("click", () => {
+      som.play().catch(() => {});
+    });
+  </script>
+</body>
+</html>
